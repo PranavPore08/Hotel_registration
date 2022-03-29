@@ -1,0 +1,404 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Seqouia Pink"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="40dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/arrow_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm your booking"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Name"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_dark_blue1"
+            android:hint="Name"
+            android:maxLines="1"
+            android:paddingStart="50dp"
+            android:paddingEnd="35dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/middlename"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_dark_blue1"
+            android:hint="Middle Name"
+            android:maxLines="1"
+            android:paddingStart="50dp"
+            android:paddingEnd="35dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/surname"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_dark_blue1"
+            android:hint="Surname"
+            android:maxLines="1"
+            android:paddingStart="50dp"
+            android:paddingEnd="35dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="260dp"
+            android:text="Email"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_dark_blue1"
+            android:hint="Email ID"
+            android:maxLines="1"
+            android:paddingStart="50dp"
+            android:paddingEnd="35dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="380dp"
+            android:text="Contact"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_dark_blue1"
+            android:hint="Mobile No."
+            android:paddingStart="50dp"
+            android:paddingEnd="35dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="500dp"
+            android:text="Address"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="560dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_dark_blue1"
+            android:inputType="textMultiLine"
+            android:paddingStart="50dp"
+            android:paddingEnd="35dp"
+            android:textSize="16sp" />
+
+        <com.ms.square.android.expandabletextview.ExpandableTextView
+            android:background="@drawable/round_back_dark_blue1"
+            android:id="@+id/covid_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="680dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            expandableTextView:animDuration="100"
+            expandableTextView:maxCollapsedLines="1">
+
+            <TextView
+                android:id="@id/expandable_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="#666666"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@id/expand_collapse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:background="@android:color/transparent"/>
+        </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+        <com.ms.square.android.expandabletextview.ExpandableTextView
+            android:background="@drawable/round_back_dark_blue1"
+            android:id="@+id/privacy_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="740dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            expandableTextView:animDuration="100"
+            expandableTextView:maxCollapsedLines="1">
+
+            <TextView
+                android:id="@id/expandable_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="#666666"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@id/expand_collapse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:background="@android:color/transparent"/>
+
+        </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+
+        <com.ms.square.android.expandabletextview.ExpandableTextView
+            android:background="@drawable/round_back_dark_blue1"
+            android:id="@+id/cacellation_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="800dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            expandableTextView:animDuration="100"
+            expandableTextView:maxCollapsedLines="1">
+
+            <TextView
+                android:id="@id/expandable_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="#666666"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@id/expand_collapse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:background="@android:color/transparent"/>
+
+        </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="860dp"
+            android:text="Summary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="920dp"
+            android:orientation="vertical"
+            android:background="@drawable/round_back_dark_blue1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Count night starting from Date"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/zostel"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:text="Count Bed Mixed Drom(With\nsharedwashroom)*1"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:text="Price*Count Night"
+                />
+        </LinearLayout>
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:text="Tax"
+                android:textStyle="bold"
+
+                expandableTextView:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Price"
+                android:layout_marginRight="20dp"
+                expandableTextView:layout_constraintEnd_toEndOf="parent"
+                 />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Total(tax incl.)"
+                    android:textStyle="bold"
+
+                    expandableTextView:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Price"
+                    android:layout_marginRight="20dp"
+                    expandableTextView:layout_constraintEnd_toEndOf="parent"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Payable Now"
+                    android:textStyle="bold"
+
+                    expandableTextView:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Price"
+                    android:layout_marginRight="20dp"
+                    expandableTextView:layout_constraintEnd_toEndOf="parent"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:justificationMode="inter_word"
+            android:text="I acknowledge and accept the terms and conditions mentioned in the Property Policy and Cancellation Policy." />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Reserve"
+                    android:textAlignment="center"
+                    expandableTextView:layout_constraintEnd_toEndOf="parent"
+                    expandableTextView:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

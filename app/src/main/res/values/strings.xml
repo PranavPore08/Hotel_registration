@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Hotel_registration</string>
+
+    <string name="covid_policy">
+        Covid Policy\n
+        -Please ensure you have read the health and travel advisory issued by your destination state.\n
+        -This hostel follows universal hygiene guidelines and a strict sanitisation protocol. Moreover, travellers and staff regularly undergo temperature checks to curtail any health lapses.\n
+        -While most staff members stay at the hostel itself, outsider staff undergo a strict thermal check and periodic testing regime.\n
+        -Travellers are requested to sanitise their bags and any outside materials (parcels, shoes, etc.) while entering the hostel premises.\n
+        -At this hostel, we outsource meals from a trusted partner. Travellers can opt for up to three meals a day by contacting the hostel reception.\n
+    </string>
+
+    <string name="property_policy">
+        Property Policy\n
+        - Guests are required to pay a 21% advance at the time of booking itself.\n
+        - We strictly DO NOT allow a group of more than 8 people. In case of a group of 4 or more, you might be purposefully allotted different dorm rooms. Further, if the group behaviour is deemed unfit at the property, the Zostel Property Manager, upon subjective evaluation, retains the full right to take required action which may also result in an on-spot cancellation without refunds.\n
+        - Children below 18 years of age are not permitted entry/stay at any of our hostels, with or without guardians. We do not recommend families.\n
+        - Our standard check-in time is 12 PM and the standard check-out time is 10 AM\n
+        - We only accept a government ID as valid identification proof. No local IDs shall be accepted at the time of check-in\n
+        - Guests are not permitted to bring outsiders inside the hostel campus.\n
+        - We believe in self-help and do not provide luggage assistance or room services.\n
+        - Drugs and any substance abuse is strictly banned inside and around the property.\n
+        - Alcohol consumption is strictly prohibited in and around the property premises.\n
+        - Right to admission reserved.\n
+        Important Note: According to the rules laid down by the City police, local vehicles are not permitted to park within the hostel premises. This includes vehicles with number plates starting with city and taxi passing vehicles (white letters on yellow plate). However, self-driven vehicles (yellow letters on black plate) are permitted to park.\n
+    </string>
+
+    <string name="cancellation_policy">
+        Cancellation Policy\n
+        We understand that sometimes plans change. Hence, to make it light on your pocket, we are only charging a 21% advance, which is on a non-refundable basis.\n
+        NOTE:\n
+        - 21% advance payment is non-refundable at all times, as stated above.\n
+        - If you have paid any amount over this 21%, it stands applicable for a credit only if the cancellation is informed 7 days or more in advance. You will be able to avail the credited amount for any future booking at any of our properties.\n
+        - If informed within 7 days of the standard check-in time (12 pm), the amount shall be adjusted against the cancellation fee.\n
+        For any other queries, please reach out to us at reservations@zostel.com.\n
+    </string>
+</resources>
